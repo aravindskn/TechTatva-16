@@ -1,0 +1,470 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10deb1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Oct 15, 2016 at 06:49 PM
+-- Server version: 5.5.52-0ubuntu0.14.04.1
+-- PHP Version: 5.5.9-1ubuntu4.19
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `mechatron`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `catalog`
+--
+
+CREATE TABLE IF NOT EXISTS `catalog` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `image` varchar(1000) NOT NULL,
+  `name` varchar(1000) NOT NULL,
+  `price` int(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=47 ;
+
+--
+-- Dumping data for table `catalog`
+--
+
+INSERT INTO `catalog` (`id`, `image`, `name`, `price`) VALUES
+(1, 'uploads/catalog/chasis.jpg', 'chasis', 4000),
+(2, 'uploads/catalog/battery.jpg', 'Battery', 2500),
+(3, 'uploads/catalog/steering.jpg', 'Steering', 1500),
+(4, 'uploads/catalog/Pistons3.jpg', 'piston', 2000),
+(5, 'uploads/catalog/gear_assembly.jpg', 'Gear assembly', 2500),
+(6, 'uploads/catalog/clutch.jpg', 'clutch', 1000),
+(7, 'uploads/catalog/car-brakes.jpg', 'brakes', 2500),
+(8, 'uploads/catalog/coolant.jpg', 'coolant', 2000),
+(9, 'uploads/catalog/suspension.jpg', 'suspension(single)', 500),
+(10, 'uploads/catalog/fuel_injector.jpg', 'fuel injectors', 1000),
+(11, 'uploads/catalog/axle.jpeg', 'Axle', 1000),
+(12, 'uploads/catalog/tyres.jpg', 'Tyres', 2000),
+(13, 'uploads/catalog/air-conditioning.jpg', 'Air conditioning', 2500),
+(14, 'uploads/catalog/radiator.jpg', 'Radiator', 1000),
+(15, 'uploads/catalog/compressor.jpg', 'AC Compressor', 500),
+(16, 'uploads/catalog/engine_fan.jpg', 'Engine fan', 750),
+(17, 'uploads/catalog/transmission.jpg', 'Transmission', 2000),
+(18, 'uploads/catalog/shock_absorbers.jpg', 'Shock absorbers', 500),
+(19, 'uploads/catalog/spark_plug.jpg', 'Spark plug', 500),
+(20, 'uploads/catalog/air_filter.jpg', 'Air filter', 1000),
+(21, 'uploads/catalog/cat_conv.jpg', 'catalystic converter', 1500),
+(22, 'uploads/catalog/alternator.jpg', 'Alternator', 500),
+(23, 'uploads/catalog/Pressure-Gauge.jpg', 'Pressure Gauge', 500),
+(24, 'uploads/catalog/steering.jpg', 'Steering', 1000),
+(25, 'uploads/catalog/exhaust.jpg', 'Exhaust system', 2500),
+(26, 'uploads/catalog/wipers.jpg', 'Wipers', 500),
+(27, 'uploads/catalog/lights.jpg', 'Lights', 1000),
+(28, 'uploads/catalog/bumper.jpg', 'Bumper', 2000),
+(29, 'uploads/catalog/seats.jpg', 'Seats', 2500),
+(30, 'uploads/catalog/engine.jpg', 'Engine', 4500),
+(31, 'uploads/catalog/bonnet.jpg', 'Bonnet', 1500),
+(32, 'uploads/catalog/crankshaft.jpg', 'Crank shaft', 1200),
+(33, 'uploads/catalog/carburetor.jpg', 'Carburetor', 1500),
+(34, 'uploads/catalog/bearings.jpg', 'Bearings', 500),
+(35, 'uploads/catalog/paint.jpg', 'Paint', 2000),
+(36, 'uploads/catalog/dash_board.jpg', 'Dash board', 1000),
+(37, 'uploads/catalog/sound_sys.jpg', 'Sound system', 500),
+(38, 'uploads/catalog/horn.jpg', 'Horn', 1000),
+(39, 'uploads/catalog/doors.jpg', 'Front doors', 1000),
+(40, 'uploads/catalog/doors.jpg', 'Rear doors', 1000),
+(41, 'uploads/catalog/speedometer.jpg', 'Speedometer', 500),
+(42, 'uploads/catalog/brake_fluid.jpg', 'Brake fluid', 1000),
+(43, 'uploads/catalog/clutch_fluid.jpg', 'Clutch fluid', 1000),
+(44, 'uploads/catalog/timing_belt.jpg', 'Timing belt', 2000),
+(45, 'uploads/catalog/gear_assembly.jpg', 'Gears', 2500),
+(46, 'uploads/catalog/differential.jpg', 'Differential', 1000);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE IF NOT EXISTS `login` (
+  `userid` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_mysql500_ci NOT NULL,
+  `timeStamp` int(100) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`userid`, `timeStamp`) VALUES
+('123234567', 1476548947),
+('123456798', 1476444757),
+('130909246', 1476359073),
+('130929232', 1476301787),
+('132016', 1476356884),
+('140000000', 1476298453),
+('1400000002', 1476552535),
+('140903038', 1476462358),
+('140903206', 1476464413),
+('140903268', 1476461921),
+('140904528', 1476479085),
+('140904556', 1476428999),
+('140905294', 1476450636),
+('140905302', 1476303995),
+('140905442', 1476294447),
+('140905464', 1476412825),
+('140905492', 1476450990),
+('140907252', 1476433361),
+('140907570', 1476472799),
+('140907712', 1476297563),
+('140908066', 1476546817),
+('140909104', 1476298119),
+('140909162', 1476454525),
+('140909352', 1476483388),
+('140909592', 1476555383),
+('140909614', 1476425029),
+('140909662', 1476553901),
+('140909872', 1476461451),
+('140911035', 1476285523),
+('140911090', 1476360454),
+('140921444', 1476302736),
+('140929236', 1476368560),
+('140929246', 1476293859),
+('140929272', 1476453686),
+('140929276', 1476427368),
+('140929300', 1476515438),
+('140929336', 1476377386),
+('140929352', 1476381705),
+('140966654', 1476542229),
+('148796563', 1476298068),
+('150903062', 1476461340),
+('150903120', 1476340453),
+('150904064', 1476298203),
+('150905170', 1476307713),
+('150905212', 1476540212),
+('150906050', 1476365684),
+('150906164', 1476361698),
+('150906166', 1476455351),
+('150906336', 1476297804),
+('150907052', 1476338480),
+('150907366', 1476302340),
+('150907368', 1476519994),
+('150908022', 1476371327),
+('150909062', 1476390526),
+('150909102', 1476372876),
+('150909126', 1476389734),
+('150909202', 1476345793),
+('150909246', 1476417893),
+('150909278', 1476390573),
+('150909384', 1476508221),
+('150909398', 1476361627),
+('150911042', 1476355555),
+('150911154', 1476381244),
+('150911236', 1476533104),
+('150921028', 1476475095),
+('150921114', 1476297896),
+('150921130', 1476295874),
+('150929002', 1476321985),
+('150929016', 1476305362),
+('150929056', 1476299076),
+('150929086', 1476359877),
+('150929088', 1476413015),
+('150929102', 1476422417),
+('150929134', 1476349331),
+('150933016', 1476302460),
+('150933064', 1476337806),
+('150934080', 1476299073),
+('150934096', 1476379357),
+('151610121', 1476550485),
+('160904280', 1476478144),
+('160905103', 1476297766),
+('160905260', 1476300036),
+('160906206', 1476391898),
+('160906268', 1476463981),
+('160907336', 1476300891),
+('160907448', 1476362736),
+('160907492', 1476432885),
+('160909030', 1476351036),
+('160909055', 1476296912),
+('160909077', 1476449749),
+('160909174', 1476386331),
+('160921040', 1476442305),
+('160929074', 1476441929),
+('160934016', 1476465971),
+('160934120', 1476297356),
+('160934168', 1476341110),
+('345756', 1476538059),
+('434634', 1476485138);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `questions`
+--
+
+CREATE TABLE IF NOT EXISTS `questions` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `question` varchar(500) NOT NULL,
+  `choice1` varchar(150) NOT NULL,
+  `choice2` varchar(150) NOT NULL,
+  `choice3` varchar(150) NOT NULL,
+  `answer` varchar(150) NOT NULL,
+  `url` varchar(150) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=181 ;
+
+--
+-- Dumping data for table `questions`
+--
+
+INSERT INTO `questions` (`id`, `question`, `choice1`, `choice2`, `choice3`, `answer`, `url`) VALUES
+(1, 'One of the following objectives is not achieved by the process of annealing', 'to soften the metal', 'to relieve internal stress', 'to refine grain structure', 'to increase the yield point', ''),
+(2, 'The melting point of the filler material in brazing should be above(in degree celcius)', '800', '1000', '600', '420', ''),
+(3, 'The mechanical advantage of a lifting machine is the ratio of', 'distance moved by effort to the distance moved by load', 'output to the input', 'all of the above', 'load lifted to the effort applied', ''),
+(4, 'One of the following function is not performed by coating on the welding electrodes', 'provide protective atmosphere', 'refuce oxidation', 'stabilize the arc', 'increase the cooling rate', ''),
+(5, 'The friction experienced by a body, when in motion, is known as', 'limiting friction', 'rolling friction', 'static friction', 'dynamic friction', ''),
+(6, 'In a process chart the inverted triangle symbol indicates', 'inspection', 'an operation', 'transport', 'storage', ''),
+(7, 'If the resultant of two equal forces has the same magnitude as either of the forces, then the angle between the two forces is', '60', '30', '90', '120', ''),
+(8, 'In oxacetylane welding, acetylene is produced using', 'Ca (OH)2 and CO2', 'CH4 and H2SO4', 'CaCO3 and H2O', 'Ca C2 and H2O', ''),
+(9, 'The range of projectile on a downward inclined plane is __________ the range on\r\n\r\nupward inclined plane for the same velocity of projection and angle', 'less than', 'equal to', 'none of these', 'more than', ''),
+(10, 'The force required to move the body up the plane will be minimum if it makes an angle\r\n\r\nwith the inclined plane __________ the angle of friction.', 'greater than', 'less than', 'none of these', 'equal to', ''),
+(11, 'The range of a projectile is maximum, when the angle of projection is', '90', '30', '60', '45', ''),
+(12, 'Two balls of equal mass and of perfectly elastic material are lying on the floor. One of\r\n\r\nthe ball with velocity v is made to struck the second ball', 'v', 'v/8', 'v/4', 'v/2', ''),
+(13, 'Static friction is always __________ dynamic friction', 'equal to', 'less than', 'none of these', 'greater than', ''),
+(14, 'Two like parallel forces are acting at a distance of 24 mm apart and their resultant is 20\r\n\r\nN. It the line of action of the resultant is 6 mm from any given force, the two forces are', '20 N and 5 N', '15 N and 15 N', 'none of these', '15 N and 5 N', ''),
+(15, 'A body will begin to move down an inclined plane if the angle of inclination of the plane\r\n\r\nis __________ the angle of friction.', 'less than', 'none of these', 'equal to', 'greater than', ''),
+(16, 'One watt is equal to', '0.1 joule/s', '100 joules/s', '10 joules/s\r\n\r\n', '1 joule/s\r\n', ''),
+(17, 'The maximum frictional force, which comes into play, when a body just begins to slide over the surface of the other body, is known as\r\n', 'dynamic friction\r\n', 'static friction\r\n', 'coefficient of friction\r\n', 'limiting friction', ''),
+(18, 'When a rigid body is suspended vertically, and it oscillates with a small amplitude under the action of the force of gravity, the body is known as\r\n', 'second''s pendulum', 'torsional pendulum', 'simple pendulum\r\n', 'compound pendulum', ''),
+(19, 'The algebraic sum of the resolved parts of a number of forces in a given direction is equal to the resolved part of their resultant in the same direction. This is known as', 'principle of independence of forces\r\n', 'principle of transmissibility of forces\r\n', 'none of these\r\n', 'principle of resolution of forces', ''),
+(20, 'The law of motion involved in the recoil of gun is', 'none of these', 'Newton''s second law of motion\r\n', 'Newton''s first law of motion', 'Newton''s third law of motion', ''),
+(21, 'The force, by which the body is attracted, towards the centre of the earth, is called', 'impulsive force', 'momentum\r\n', 'mass\r\n', 'weight\r\n', ''),
+(22, 'Three forces acting on a rigid body are represented in magnitude, direction and line of action by the three sides of a triangle taken in order. The forces are equivalent to a couple whose moment is equal to', 'area of the triangle\r\n', 'area of the triangle\r\n', 'half the area of the triangle', 'twice the area of the triangle\r\n', ''),
+(23, 'If the number of pulleys in a system is equal to its velocity ratio, then it is a __________ system of pulleys\r\n', 'third\r\n', 'first\r\n', 'fourth\r\n', 'second\r\n', ''),
+(24, 'Coplaner concurrent forces are those forces which', 'do not meet at one point and their lines of action do not lie on the same plane\r\n', 'meet at one point, but their lines of action do not lie on the same plane', 'do not meet at one point, but their lines of action lie on the same plane', 'meet at one point and their lines of action also lie on the same plane\r\n', ''),
+(25, 'The angle of inclination of the plane at which the body begins to move down the plane, is called\r\n', 'angle of repose', 'none of these', 'angle of projection', 'angle of friction', ''),
+(26, 'The centre of gravity of a quadrant of a circle lies along its central radius (r) at a distance of\r\n', '0.5r', '0.8r', '0.7r', '0.6r\r\n', ''),
+(27, 'A lead ball with a certain velocity is made to strike a wall, it falls down, but rubber ball of same mass and with same velocity strikes the same wall, it rebounds. Select the correct reason from the following:\r\n', 'both the balls undergo an equal change in momentum', 'none of the above', 'the change in momentum suffered by rubber ball is less than the lead ball\r\n\r\n', 'the change in momentum suffered by rubber ball is more than the lead ball\r\n', ''),
+(28, 'In a single threaded worm and worm wheel, the number of teeth on the worm is 50. The diameter of the effort wheel is 100 mm and that of load drum is 50 mm. The velocity ratio is\r\n', '50\r\n', '150\r\n', '200\r\n', '100\r\n', ''),
+(29, 'When a body falls freely under gravitational force, it possesses __________ weight.\r\n', 'maximum\r\n', 'less', 'minimum\r\n', 'no', ''),
+(30, 'Which of the following statement is correct?\r\n', 'The velocity of the particle moving with simple harmonic motion is zero at the mean position', 'The periodic time of a particle moving with simple harmonic motion is directly proportional to its angular velocity', 'The acceleration of the particle moving with simple harmonic motion is maximum at the mean position.\r\n', 'The periodic time of a particle moving with simple harmonic motion is the time taken by a particle for one complete oscillation,\r\n', ''),
+(31, 'According to lamis theorem', 'the three forces must be at 120degree to each other', 'the three forces must be equal', 'the three forces must be in equilibrium\r\n', 'if the three forces acting at a point are in equilibrium, then each force is proportional to the sine of the angle between the other two\r\n', ''),
+(32, 'Moment of inertia of a triangular section of base (b) and height (h) about an axis passing through its vertex and parallel to the base, is __________ than that passing through its C.G. and parallel to the base.\r\n', 'nine times\r\n', 'ten times\r\n', 'seven times\r\n', 'six times', ''),
+(33, 'A machine having an efficiency greater than 50%, is known as', 'non-reversible machine', 'ideal machine', 'neither reversible nor non-reversible machine', 'reversible machine', ''),
+(34, 'A cycle consisting of one constant pressure, one constant volume and two isentropic processes is known as', 'Carnot cycle', 'Stirling cycle', 'Otto cycle', 'Diesel cycle', ''),
+(35, 'The efficiency and work ratio of a simple gas turbine cycle are\r\n', 'low', 'High', 'very high', 'very low', ''),
+(36, 'The compression ratio for petrol engines is\r\n', '3 to 6', '15 to 20', '20 to 30', '5 to 8', ''),
+(37, 'The distillation carried out in such a way that the liquid with the lowest boiling point is first evaporated and recondensed, then the liquid with the next higher boiling point is then evaporated and recondensed, and so on until all the available liquid fuels are separately recovered in the sequence of their boiling points. Such a process is called\r\n', 'cracking', 'carbonisation', 'full distillation', 'fractional distillation', ''),
+(38, 'One kg of carbon monoxide requires __________ kg of oxygen to produce 11/7 kg of carbon dioxide gas', 'All', '11/4', '9/7', '4/7', ''),
+(39, 'A vertical column has two moments of inertia (i.e. Ixx.and Iyy). The column will tend to buckle in the direction of the', 'axis of load', 'perpendicular to the axis of load', 'maximum moment of inertia', 'minimum moment of inertia', ''),
+(40, 'Euler''s formula holds good only for', 'short columns', 'both short and long columns\r\n', 'weak columns', 'long columns', ''),
+(41, 'When a rectangular beam is loaded transversely, the maximum compressive stress is developed on the', 'top layer', 'neutral axis', 'every cross-section', 'bottom layer', ''),
+(42, 'The point of contraflexure is a point where', 'shear force changes sign', 'shear force is maximum', 'bending moment is maximum', 'bending moment changes sign', ''),
+(43, 'The energy stored in a body when strained within elastic limit is known as\r\n', 'resilience', 'proof resilience', 'impact energy', 'strain energy', ''),
+(44, 'Resilience is the', 'energy stored in a body when strained within elastic limits', 'energy stored in a body when strained upto the breaking of the specimen\r\n', 'maximum strain energy which can be stored in a body', 'none of the above', ''),
+(45, 'In a simple bending of beams, the stress in the beam varies\r\n', 'parabolically', 'hyperbolically', 'elliptically', 'linearly', ''),
+(46, 'In free convection heat transfer transition from laminar to turbulent flow is governed by the critical value of the', 'Reynold''s number', 'Grashoff''s number', 'Reynold''s number, Grashoff''s number', 'Prandtl number, Grashoff''s number', ''),
+(47, 'In a refrigerating machine, heat rejected is __________ heat absorbed.\r\n', 'equal to', 'less than', 'none of the above', 'greater than', ''),
+(48, 'This stage is called:\r\n', 'Common Base\r\n', 'Common Collector', 'Emitter Follower', 'Common Emitter', 'uploads/ques_images/image1.gif'),
+(49, 'A resistor with colour bands: red-red-red-gold, has the value:\r\n', '22k and 5%', '220R and 5%', '22R and 5%', '2k2 and 5%\r\n', ''),
+(50, 'The resistor identified in brown is called the:\r\n', 'Base Bias Resistor', 'Emitter Feedback Resistor\r\n', 'Bypass Resistor\r\n', 'Load Resistor\r\n', 'uploads/ques_images/image3.gif'),
+(51, 'Name the three leads of a common transistor\r\n', 'Collector Bias Omitter', 'Base Collector Case', 'Emitter Collector Bias', 'Collector Base Emitter', ''),
+(52, 'What is the approximate characteristic voltage that develops\r\nacross a red LED\r\n', '3.4v\r\n', '0.6v\r\n', '5v', '1.7v', ''),
+(53, 'Which is not a "common" value of resistance', '2k7', '1M8\r\n', '330R', '4k4', ''),
+(54, 'Two 3V batteries are connected as shown.The output voltage is:\r\n', '3v', '1.5v', '6v', '0v', 'uploads/ques_images/image4.gif'),
+(55, 'The closest value for this combination is:\r\n', '4k7\r\n', '9k4\r\n', '0', '2k3\r\n', 'uploads/ques_images/image5.gif'),
+(56, 'The four symbols are:', 'Electrolytic, Microphone, Resistor, Capacitor', 'Capacitor, Piezo, Resistor, Electrolytic', 'Electrolytic, Coil, Resistor, Capacitor', 'Capacitor, Microphone, Potentiometer, Electrolytic', 'uploads/ques_images/image6.gif'),
+(57, 'A resistor and capacitor in series is called a:\r\n', 'Pulse Circuit\r\n', 'Oscillator Circuit/Frequency Circuit', 'Schmitt Circuit', 'Timing Circuit/Delay Circuit\r\n', 'uploads/ques_images/image7.gif'),
+(58, 'A red-red-red-gold resistor in series with an orange-orange-orange-gold resistor produces', '5k5\r\n', '55k\r\n', 'None of the above', '35,200 ohms\r\n', ''),
+(59, 'A capacitor and coil in parallel is called:\r\n', 'A Timing Circuit', 'A Delay Circuit', 'A Schmitt Circuit\r\n', 'A Tuned Circuit', 'uploads/ques_images/image8.gif'),
+(60, 'Identify the correctly connected LED:\r\n', 'A', 'C\r\n', 'D', 'B', 'uploads/ques_images/image9.gif'),
+(61, 'The tolerance bands:gold;silver;brown, represent:\r\n', '10%,5%,1%', '5%,10%,2%\r\n', '10%,5%,2%', '5%,10%,1%\r\n', ''),
+(62, 'The purpose of the capacitor', 'To pass AC on the input to the base', 'Block DC from the input line', 'To allow the stage to operate', 'To allow the transistor to self-bias', 'uploads/ques_images/image10.gif'),
+(63, 'The output of a gas turbine is 300 KW and its efficiency is 20 percent, the heat supplied is\r\n', '6000 KW\r\n', '150 KW\r\n', '600 KW\r\n', '15 KW\r\n', ''),
+(64, 'Reducing flame is obtained in oxyactetylane welding with', 'excess oxygen', 'equal parts of both gases\r\n', 'reduced acetylene', 'excess of acetylene', ''),
+(65, 'The pump with a low initial cost and low maintenance cost is', 'double acting piston pump\r\n     ', 'gear pump', 'bucket pump\r\n', 'centrifugal pump', ''),
+(66, 'A refigerant used in the domestic refrigerator is\r\n', 'methane\r\n', 'air', 'Sulphur dioxide', 'freon\r\n', ''),
+(67, 'Mandrels are used to hold\r\n', 'face plate', 'cutting tools', 'drill bits', 'hollow work pieces', ''),
+(68, 'An aircraft gas turbine operates on', 'Sterling cycle', 'Rankine cycle', 'Otto cycle', 'Bryton cycle\r\n', ''),
+(69, 'Draft on a pattern is provided for\r\n', 'facilitating withdrawal of the pattern from the mould\r\n', 'easy lifting of the casting', 'facilitating pattern making', 'providing for strinkage of the casting\r\n', ''),
+(70, 'One of the following methods is adopted for governing of steam turbines in a power plant\r\n', 'speed control', 'blow off in boiler', 'hit and miss governing', 'throttle governing\r\n', ''),
+(71, 'Sprue is the passing provided for the', 'outflow\r\n', 'smooth flow', 'solidification of the molten material\r\n', 'inflow', ''),
+(72, 'The operation of enlarging of a hole is called', 'drilling\r\n', 'reaming\r\n', 'counter sinking\r\n', 'boring\r\n', ''),
+(73, 'Quick return motion is used in a\r\n', 'drilling\r\n', 'grinder', 'lathe\r\n', 'shaper\r\n', ''),
+(74, 'For the purpose of comparison, the steam generating capacity of a boiler is generally expressed in terms of', 'kg/hr', 'steam pressure', 'thermal efficiency', 'equivalent evaporation\r\n', ''),
+(75, 'Which of the following operations cannot be performed on a lathe\r\n', 'thread cutting', 'drilling', 'facing\r\n', 'slotting\r\n', ''),
+(76, 'Feed in a lathe is expressed in\r\n', 'mm', 'mm per degree', 'rpm', 'mm per revolution', ''),
+(77, 'Rapping allowance is provided on a pattern to take care of\r\n', 'distortion\r\n', 'machining\r\n', 'shrinkage\r\n', 'easy withdrawl', ''),
+(78, 'Brasses and bronzes are welded using', 'reducing flame', 'carburising flame', 'oxidizing flames', 'neutral flame', ''),
+(79, 'Which of the following is not used as a refrigerant ?\r\n', 'carbon dioxide', 'amonia', 'sulphur dioxide', 'carbon monoxide', ''),
+(80, 'In Industry of the developed nations the type of production most often occurring is\r\n', 'Create lot production', 'Single lot production', 'Mass production', 'Batch production', ''),
+(81, 'what are wobble shimmy vibrations?', 'steering vibrations ', 'vibrations caused due to imbalanced or worn parts', 'none of the above', 'Both a &b', ''),
+(82, 'what is the difference between pressure and stress?', 'internal &external', 'both external', 'both internal', 'external & internal', ''),
+(83, 'Vbe < 0.7 and a 12V power supply is connected to the circuit.Find Vo.(See the figure)', '6V ', '27V', '-18V', '12V', 'uploads/ques_images/image1.gif'),
+(84, 'Ratio of lateral strain to linear strain is called', 'Bulk''s Modulus ', 'Young''s Modulus', 'Modulus of rigidity', 'Poisson''s Ratio', ''),
+(85, 'Excess-3 conversion of binary 6 is', '1000 ', '1010 ', '1011 ', '1001', ''),
+(86, 'Which of the following will have more strength if material, weight and length are same?', 'Solid shaft', 'Both will be equal', 'Can''t determine', 'Hollow shaft', ''),
+(87, 'if a material has no uniform density throughout the body, then the position of centroid and center of mass are', 'identical', 'independent upon the density ', 'unpredictable', 'not identical ', ''),
+(88, 'The gray code of the binary code 110', ' 001', '111', '110', '101', ''),
+(89, 'Compression ratio of 4 stroke petrol             engine is', '7:2 to 9:20', '9:4 to 10:15', '15:1 to 22:1', '7:1 to 9:1', ''),
+(90, 'Babcock & wilcox boiler is which type ?', 'fire tube boiler', 'liquid fueled ', 'Natural circulation boiler', ' water tube boiler', ''),
+(91, 'When the diode is in forward bias, it is equivalent to', 'An OFF switch', 'A high resistor', 'A very low resistance ', 'An ON switch', ''),
+(92, 'Solve AB + A''C'' + AB''C(AB+C)', '0', 'A', 'AB''C (AC+B)', '1', ''),
+(93, 'A basic S-R flip-flop can be constructed by cross-coupling which basic logic gates ?', 'XOR or XNOR GATES', 'AND or NOR GATES', 'AND or OR GATES', 'NOR or NAND GATES', ''),
+(94, 'A colour code of orange, orange, orange is for what ohmic value ?', '3300 ohms', '44000 ohms', '22 kilo ohms', '33 kilo ohms', ''),
+(95, 'Work done in a free expansion process is', 'Maximum', 'Minimum', 'Positive', 'Zero', ''),
+(96, 'In ideal machines, mechanical advantage is _________ velocity ratio.', 'None of these', 'Less than', 'Greater than', 'Equal to', ''),
+(97, 'The center frequency of a band pass filter is always equal to', '-3 dB frequency', 'Bandwidth', 'Bandwidth divided by Q', 'Geometrical average of the critical frequencies.', ''),
+(98, 'At a given instant ship A is travelling at 6km//hr due east and ship B is\r\ntravelling at 8km/hr due north. The velocity of B relative to A is', '7km/hr', '14 km/hr', '1 km/hr', '10 km/hr', ''),
+(99, 'In an amplifier with negative feedback', 'Only the gain of the amplifier is affected', 'Only the gain and the bandwidth of the amplifier is affected', 'Only the input and output impedances are affected', 'All the four parameters mentioned above are affected.', ''),
+(100, 'The co-efficient of friction depends upon', 'Area of contact', 'Shape of the surface', 'All of the above', 'Nature of surfaces', ''),
+(101, 'The ideal op-amp has the following characteristics', 'Ri=0,A=infinity,Ro=0', 'Ri=infinity,A=infinity,Ro=infinity', 'Ri=0,A=infinity,Ro=infinity', 'Ri=infinity,A=infinity,Ro=0', ''),
+(102, 'The units of moment of inertia of an area are', 'Kg-m^2', 'm^4', 'kg/m^2', 'kg/m^2', ''),
+(103, 'The field at any point on the axis of a current carrying coil will be', 'parallel to axis', 'perpendicular to the axis.', 'zero.', 'at angle of 45degrees with the axis.', ''),
+(104, ' Which field is associated with the capacitor?', 'Magnetic', 'Both of (A) and (B)', 'None of above.', 'Electric.', ''),
+(105, 'A DC generator without commutator is a', 'DC motor', 'DC generator\r\n', 'induction motor', 'AC generator', ''),
+(106, 'How many bits are required to store one BCD digit ?', '1', '2', '3', '4', ''),
+(107, 'The effective inhibitor of pre-ignition is', 'alcohol', 'none of these', 'lead', 'water', ''),
+(108, 'Function of transducer is to convert', 'Electrical signal into non electrical quantity', 'Electrical signal into mechanical quantity', 'All of these', 'Non electrical quantity into electrical signal', ''),
+(109, 'An OR gate has 6 inputs ,the number of input combinations in its truth table ', '6', '32', '128', '64', ''),
+(110, 'Digital signals deal in the realm of the _______ possibilities', 'continous', 'infinite', 'discontinous', 'finite', ''),
+(111, 'Digital circuits operate using __________ signals', 'both continous and discontinuos', 'continous', 'none', 'discontinous', ''),
+(112, 'Cellphone chargers are -', 'DC to AC converters', 'none of the above', 'both', 'AC to DC converters', ''),
+(113, 'Difference between a generator and a motor is that ', 'both convert electrical to mechanical', 'latter one does not work on electromangnetic induction', 'none of the abaove', 'latter converts electrical energy to mechanical and former converts mechanical to electrical', ''),
+(114, 'Measured Voltage V= 20 +0.02ohm .Find the relative error?', '3%', '6.90%', '0.01%', '0.1%', ''),
+(115, 'metrology is the science of-', 'environmental changes', 'weather conditions', 'none of the above', 'measurement', ''),
+(116, 'Consider a string of Christmas lights . box 1 contains\r\nexpensive pack of led lights connected in series ; box 2\r\ncontains cheap pack of led lights connected in parallel-\r\nWhich is better', 'box 1', 'both 1 and 2', 'none', 'box 2', ''),
+(117, 'Consider two different metals joined together forming a closed cloop\r\nhaving two different temperature junctions , what will the effect', 'Current does not flow', 'None', 'Can not be determined', 'Current flows', ''),
+(121, 'Siemens or Mho  is the unit of ', 'Conductance', 'Admittance', 'None of the above', 'Both', ''),
+(122, 'If you have two different bulbs in series (e.g. a round bulb and a\r\nlong bulb). Round bulb has a resistance of 25.678 ohm and long bulb\r\nhas resistance of 27 ohm . which bulb will glow brighter?', 'both will glow equally', 'round bulb', 'none', 'long bulb', ''),
+(123, 'In a lifting machine, a load of 240 N is being raised and the velocity ratio is 20. If the efficiency of the machine is 40%, the effort is equal to', '35', '25', '20', '30', ''),
+(124, 'The common collector amplifier is also known as \r\n', 'Collector follower', 'Base follower ', 'Source follower', 'Emitter follower ', ''),
+(125, 'A Constant load power means a uniform conversion of', 'Mechanical energy to electrical energy', 'current to voltage', 'voltage to current\r\n', 'electrical energy to mechanical energy', ''),
+(126, 'The basic logic gate whose output is the complement of the input is the', 'OR gate', 'AND gate', 'comparator', 'NOT gate', ''),
+(127, '(XOR)logic gates can be constructed from what other logic gates', 'OR gates only', 'AND gates and NOT gates', 'OR gates and NOT gates', 'AND gates,OR gates,and NOT gates', ''),
+(128, 'When transistors are used in digital circuits they usually operate in the', 'active region', 'breakdown region', 'linear region', 'saturation and cutoff regions', ''),
+(129, 'If the voltage across a fixed value of resistance is increased five times, what does the current do', 'It decreases by a factor of five', 'It stays the same', 'Not enough information', 'It increases by a factor of five', ''),
+(130, 'Shunting the ac component away from the load is the task of a', 'transformer', 'regulator', 'rectifier', 'filter', ''),
+(131, 'Increasing the number of turns of wire on the secondary of a transformer will', 'increase the secondary current', 'have no effect on the secondary current', 'increase the primary current', 'decrease the secondary current', ''),
+(132, 'Mutual induction is dependent on', 'winding ratios', 'output polarities', 'dc voltage levels', 'change in current', ''),
+(133, 'The voltage across any branch of a parallel circuit', 'varies as the total current varies', 'is inversely proportional to total circuit resistance', 'is dropped in proportion to each branch resistance', 'is equally applied to all branch conductances', ''),
+(134, 'As compared to uniaxial tension or compression, the strain energy stored in bending is only', '1/4', '1/2', '1/5', '1/3', ''),
+(135, 'The heat and mechanical energies are mutually convertible.This statement was established by', 'none of these', 'Boyle', 'Charles', 'Joule', ''),
+(136, 'The efficiency of Carnot cycle depends upon', 'volume compression ratio', 'pressure ratio', 'cut-off ratio and compression ratio', 'temperature limits', ''),
+(137, 'An open cycle gas turbine works on', 'Otto cycle', 'Stirling cycle', 'Carnot cycle', 'Joules cycle', ''),
+(138, 'Which of the following is an intensive property of a thermodynamic system', 'Mass', 'Energy', 'Volume', 'Temperature', ''),
+(139, 'The natural solid fuel is', 'anthracite coal', 'coke', 'pulverised coal', 'wood', ''),
+(140, 'The simply supported beam A of length l carries a central point load W. Another beam B is loaded with a uniformly distributed load such that the total load on the beam is W.The ratio of maximum deflections between beams A and B is', '4/5', '5/4', '5/8', '8/5', ''),
+(141, 'In a four stroke cycle petrol engine, the charge is ignited at', '30degrees before bottom dead centre', '30degrees after top dead centre', '30degrees after bottom dead centre', '30degrees before top dead centre', ''),
+(142, 'The reference fuels for knock rating of spark ignition engines would include', 'normal octane and aniline', 'isooctane and normal hexane', 'isooctane and alphamethyl naphthalene', 'normal heptane and isooctane', ''),
+(143, 'Reactors for propulsion applications are designed for', 'natura uranium', 'plutonium', 'any form of uranium', 'enriched uranium', ''),
+(144, 'A moderator generally used in nuclear power plants is', 'concrete', 'heavy water', 'graphite', 'graphite and concrete', ''),
+(145, 'Internal gears can be made by', 'hobbing', 'shaping with rack cutter', 'milling', 'milling', ''),
+(146, 'The silicon carbide abrasive is chiefly used for grinding', 'cemented carbide', 'ceramic', 'cast iron', 'all of these', ''),
+(147, 'Drilling is an example of', 'orthogonal cutting', 'simple cutting', 'uniform cutting', 'oblique cutting', ''),
+(148, 'When the cutting edge of the tool is dull, then during machining', 'continuous chips are formed', 'discontinuous chips are formed', 'no chips are formed', 'continuous chips with built-up edge are formed', ''),
+(149, 'Cast iron during machining produces', 'continuous chips', 'continuous chips with built-up-edge', 'none of these', 'discontinuous chips', ''),
+(150, 'The work or surface speed for cylindrical grinding varies from', '5 to 10 m/min', '10 to 20 m/min', '40 to 60 m/min', '20 to 30 m/min', ''),
+(151, 'The cutting tool in a milling machine is mounted on', 'spindle', 'column', 'knee', 'arbor', ''),
+(152, 'Twist drills are made of', 'high speed steel', 'carbon steel', 'stainless steel', 'either high speed steel or carbon steel', ''),
+(153, 'The lip angle of a single point tool is usually', '20degrees to 40degrees', '40degrees to 60degrees', 'none of these', '60degrees to 80degrees', ''),
+(154, 'The facing is an operation of', 'bevelling the extreme end of a workpiece', 'embossing a diamond shaped pattern on the surface of a workpiece', 'reducing the diameter of a workpiece over a very narrow surface', 'machining the ends of a workpiece to produce a flat surface square with the axis', ''),
+(155, 'The lead screw of a lathe has __________ threads\r\n', 'double start', 'multi start', 'none of these', 'single start', ''),
+(156, 'A left hand tool on a lathe cuts most efficiently when it travels', 'from right to left end of the lathe bed', 'with the help of a compound slide', 'across the bed', 'from left to right end of the lathe bed', ''),
+(157, 'The correct sequence of tool materials in increasing order of their ability to retain their hot hardness is', 'carbide,ceramic,cermet,borazon', 'ceramic,carbide,borazon,cermet', 'borazon,ceramic,carbide,cermet', 'cermet,carbide,ceramic,borazon', ''),
+(158, 'When the speed at which a conductor is moved through a magnetic field is increased, the induced voltage', 'decreases', 'remains constant', 'reaches zero', 'increases', ''),
+(159, 'The induced voltage across a coil with 250 turns that is located in a magnetic field that is changing at a rate of 8 Wb/s is', '1000 V', '31.25 V', '3125 V', '2000 V', ''),
+(160, 'For a given wirewound core, an increase in current through the coil', 'reverses the flux lines', 'increases the flux density', 'causes no change in flux density', 'decreases the flux density', ''),
+(161, 'When the current through the coil of an electromagnet reverses,the', 'direction of the magnetic field remains unchanged', 'magnetic field expands', 'magnetic field collapses', 'direction of the magnetic field reverses', ''),
+(162, 'What is the reluctance of a material that has a length of 0.07 m, a crosssectional area of 0.014 m2, and a permeability of 4,500 Wb/At*m', '111 At/Wb', '11 At/Wb', '1 At/Wb', '1111 At/Wb', ''),
+(163, 'The unit for reluctance is', 'tesla', 'At/m', 'Wb', 'At/Wb', ''),
+(164, 'There is 900 mA of current through a wire with 40 turns. What is the reluctance of the circuit if the flux is 400 Wb', '14,400 At/Wb', '1,440 At/Wb', '9,000 At/Wb', '90,000 At/Wb', ''),
+(165, 'A basic one-loop dc generator is rotated at 90 rev/s. How many times each second does the dc output voltage peak (reach maximum)', '90', '270', '360', '180', ''),
+(166, 'The voltage induced across a certain coil is 200 mV. A 120 ohm resistor is connected to the coil terminals. The induced current is', '16 mA', '12 mA', '120 mA', '1.7 mA', ''),
+(167, 'The induced voltage across a stationary conductor in a stationary magnetic field is', 'reversed in polarity', 'increased', 'decreased', 'zero', ''),
+(168, 'When a solenoid is activated, the force that moves the plunger is', 'a permanent magnetic field', 'varying voltage', 'a steady current', 'an electromagnetic field', ''),
+(169, 'What is the magnetomotive force (mmf) of a wire with 8 turns carrying three amperes of current', '2,400 At', '240 At', '2.4 At', '24 At', ''),
+(170, 'In a three phase system,the voltages are separated by', '45deg', '90deg', '180deg', '120deg', ''),
+(171, 'In a Delta-connected source driving a Delta-connected load,the', 'load voltage and line voltage are one-third the source voltage for a given phase', 'load voltage and line voltage are two-thirds the source voltage for a given phase', 'load voltage and line voltage cancel for a given phase', 'load voltage, line voltage,and source phase voltage are all equal for a given phase', ''),
+(172, 'In a Delta-connected source feeding a Y-connected load', 'each phase voltage equals the corresponding load voltage', 'each phase voltage is one-third the corresponding load voltage', 'each phase voltage is 60deg out of phase with the corresponding load voltage', 'each phase voltage equals the difference of the corresponding load voltages', ''),
+(173, 'A constant load power means a uniform conversion of', 'mechanical to electrical energy', 'current to voltage', 'voltage to current', 'electrical to mechanical energy', ''),
+(174, 'A two-phase generator is connected to two 90 ohm load resistors. Each coil generates 120 V ac. A common neutral line exists. How much current flows through the common neutral line', '1.33 A', '1.88 A', '2.66 A', '1.77 A', ''),
+(175, 'What are the two main applications for ac', 'direct,pulsating', 'electric,magnetic', 'static,dynamic', 'power,information', ''),
+(176, 'The distance that a signals energy can travel in the time it takes for one cycle to occur is called the signals', 'amplitude', 'frequency', 'period', 'wavelength', ''),
+(177, 'If current varies periodically from zero to a maximum, back to zero, and then repeats, the signal is', 'direct', 'alternating', 'repetitive', 'pulsating', ''),
+(178, 'What voltage will an ac voltmeter display', 'average', 'peak', 'peak to peak', 'rms', ''),
+(179, 'Which percentages of full-amplitude rise time are used for a pulse wave', '0 to 50 percent', '0 to 100 percent', '5 to 95 percent', '10 to 90 percent', ''),
+(180, 'What does the CRT oscilloscope display', 'current and frequency', 'rms voltage and current', 'frequency and voltage', 'voltage and period', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `result`
+--
+
+CREATE TABLE IF NOT EXISTS `result` (
+  `del_id` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_mysql500_ci NOT NULL,
+  `parts` varchar(150) NOT NULL,
+  PRIMARY KEY (`del_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `result`
+--
+
+INSERT INTO `result` (`del_id`, `parts`) VALUES
+('123234567', ''),
+('130929232', '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46'),
+('1400000002', ''),
+('140903206', ''),
+('140905464', '2 9'),
+('140905492', '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46'),
+('140907252', '1 2 3'),
+('140908066', '1 6'),
+('140909352', ''),
+('140909566', ''),
+('140909662', ''),
+('140911090', '2'),
+('140929272', ''),
+('140929276', ''),
+('140929300', ''),
+('140966654', '3 4'),
+('150903062', '2 27 29 36 37 38 41 42 46'),
+('150903120', ''),
+('150905170', '3 22 23'),
+('150905212', '1 2 3 12 30'),
+('150906050', ''),
+('150906164', ''),
+('150908022', '19 23 24'),
+('150909062', ''),
+('150909102', '2 4 5 11'),
+('150909246', '3'),
+('150909384', '3 11'),
+('150911042', ''),
+('150921028', '3'),
+('150921130', '1 2 4 5 7 9 10 11 12 17 18 19 30'),
+('150929016', '1 2 4 5 6 7 10 11 12 14 15 17 19 21 22 24 30'),
+('150929086', ''),
+('150929088', '1 2 3 4 6 9 11 12 17 19 25 30 33 39 40'),
+('150929102', ''),
+('150929134', '9 11 12 46'),
+('150933016', '1 2 4 6 7 10 11 12 14 15 17 18 20 21 22 24 25 30 45 46'),
+('150933064', ''),
+('150934080', ''),
+('160904280', '1'),
+('160906206', '1 2 3 4 5 6 7'),
+('160906268', ''),
+('160907336', '1 9'),
+('160907448', '1 2 3 5 6 7 9 11 12 14 18 25 30 33 34 35 38 39 40 45 46'),
+('160934120', '1 2 19'),
+('160934168', '');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

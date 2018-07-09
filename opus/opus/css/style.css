@@ -1,0 +1,112 @@
+nav div{
+    background: black;
+    color: white;
+}
+#spacer {
+    height: 10vh;
+}
+
+.content-background {
+    background: rgba(255,255,255,0.75);
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+    transition: background 0.5s ease;
+    transition: box-shadow 0.3s ease;
+    transition: border-radius 0.3s ease;
+}
+.content-background:hover {
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0px 3px 20px 0px black;
+    border-radius: 10px;
+}
+#content {
+    margin: 20px 0px;
+}
+
+.sidebar-item {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    max-width: 100px;
+    display: block;
+    margin: 0px auto;
+    padding: 10px 18px;
+    transition: all 0.5s ease;
+}
+
+.sidebar-item:hover {
+    background: rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 10px black;
+}
+
+.sidebar-item img {            
+    margin: 0px auto;
+    display: block;
+}
+
+#forms-container {
+    font-size: 1.1em;
+}
+
+input, button {
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    color: black;
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+input {
+    width: 60%;
+    outline: none;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+input:focus, input:hover {
+    box-shadow: 0px 0px 10px green;
+    background: rgba(0,150,0,0.8);
+    color: white;
+    border: 2px solid transparent;
+}
+
+button {
+    padding: 5px 25px;
+    transition: 0.3s;
+}
+button:hover, button:focus {
+    box-shadow: 0px 0px 10px green;
+    background: green;
+    color: white;
+    border: 2px solid transparent;
+    outline: 0;
+}
+button:disabled {
+    font-color: grey;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Small devices (landscape phones, less than 48em) */
+@media (max-width: 47.9em) { 
+    .sidebar-item {
+        display: inline-block;
+        max-width: 25%;
+        margin: 20px 0px;
+        padding: 3px 10px;
+    }
+    .sidebar-item img {
+        max-height: 75px;
+    }
+
+    #forms-container {
+        padding: 0px;
+    }
+    input {
+        display: block;
+        margin: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+}

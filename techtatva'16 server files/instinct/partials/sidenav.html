@@ -1,0 +1,59 @@
+<md-sidenav style="height:100%;" class="md-sidenav-left" md-whiteframe="4" md-is-locked-open="$mdMedia('gt-md')" md-component-id="left" md-disable-backdrop="" md-swipe-left="toggleLeft() ">
+    <md-toolbar md-whiteframe="3" class="md-theme-indigo" layout="row" layout-align="space-between">
+        <div layout="row">
+            <div flex><h1 class="md-toolbar-tools">Welcome {{User.name}}</h1> </div>
+            
+        </div>
+        <div>
+            <md-button md-whiteframe="5" class="md-fab md-mini" aria-label="Hide Menu" ng-click="toggleLeft()" hide-gt-md><i class="material-icons">arrow_back</i></md-button>
+        </div>
+    </md-toolbar>
+    <md-content layout-padding="" layout="column">
+        <div><ul class="navUl">
+            <div ng-repeat="item in items">
+                <a class="navA hoverable" layout="row" ui-sref="dashboard.{{item.link}}" ng-click="toggleLeft()"layout-align="space-between">
+                    <li class="NavLi">{{item.title}}</li> <i class="material-icons navicon">{{item.icon}}</i> </a>
+                <md-divider></md-divider>
+            </div>
+        </ul>
+        </div>
+        <div>
+        <round-progress max=User.totalLeft current=User.outOf color="#00897b" bgcolor="#eaeaea" radius="100" stroke="20" semi="true" rounded="true" clockwise="true" responsive="true" duration="1800" animation="easeInOutQuart" animation-delay="0"></round-progress>
+        <p>Score is {{User.score}}</p>
+        <p> Lives left {{User.lives}}</p>
+        <p>Questions left for you today {{User.totalLeft-User.outOf}}</p>
+        <md-divider></md-divider>
+            <ul class="navUl" layout-margin><a class="navA .navLi hoverable" layout="row" ng-click="Logout()" layout-align="space-between"><li class="NavLi">Logout</li> <i class="material-icons navicon">flight</i></a></ul>
+        </div>
+    </md-content>
+</md-sidenav>
+<div>
+<md-button class="md-fab" md-whiteframe="7" id="fabMenu" aria-label="Show Menu" ng-click="toggleLeft()" hide-gt-md> <i class="material-icons">menu</i> </md-button>
+</div> 
+
+<style>
+.NavLi{
+   padding: 20px;
+    
+}
+.NavLi:hover{
+    background-color: #e0e0e0;
+}
+a.navA{
+    text-decoration:none;
+    color: #263238;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    
+}
+a.navA:hover{
+     background-color: #e0e0e0;
+}
+.material-icons.navicon{
+    padding-top: 20px;
+}
+ul.navul{
+    padding-left: 0px;
+}`
+</style>

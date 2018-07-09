@@ -1,0 +1,105 @@
+@charset"utf-8";
+
+/***************
+     MAIN
+***************/
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	background-color: #f0f0f0;
+	background-image: url(images/The_Wall_from_the_south.jpg);
+}
+a{
+	text-decoration: none;
+}
+/***************
+ BORDER-01(TOP)
+***************/
+#top-most-border-border-01{
+	background-color: black;
+	height: 1.5px;
+	width: 100%;
+}
+#top-most-border-border-02{
+	background-color: grey;
+	height: 5px;
+	width: 100%;
+}
+/***************
+  Header--NAV
+***************/
+header{
+	height: 80px;
+	width: 100%;
+	margin: auto;
+	background-color: whitesmoke;
+}
+header nav{
+	text-align: center;
+}
+header nav ul{
+	padding: 26.5px 0px;
+}
+header nav li{
+	display: inline;
+	cursor: pointer;
+	padding: 0px 60px;
+	font-size: 1.2em;
+	color: grey;
+	
+}
+.header-nav-anchor:link{
+	color: grey;
+}
+.header-nav-anchor:hover{
+	color: grey;
+	font-size: 1.5em;
+	
+}
+.header-nav-anchor:active{
+	color: grey;
+}
+.header-nav-anchor:visited{
+	color: grey;
+}
+/***************
+  DIV-first-div
+***************/
+input{
+	padding: 10px 20px;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 25px;
+	color: blue;
+	background-color: white;
+}
+#first-div-previous-button{
+	position: absolute;
+	top: 400px;
+	left: 70px;
+}
+#first-div-next-button{
+	position: absolute;
+	top: 400px;
+	right: 70px;
+}
+
+
+
+/***************
+  
+***************/
+#button-save-button{ 
+	position: absolute;
+	top: 700px;
+	left: 45%;
+	
+}
+
+#submit-button{
+	position: absolute;
+	top: 700px;
+	right: 45%;
+}

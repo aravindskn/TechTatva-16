@@ -1,0 +1,58 @@
+.navbar-brand{
+
+    background-color:#111;
+}
+.active{
+    background-color:#333;
+}
+.navbar{
+    top:10px;
+    align:center;
+}
+ul{
+    list-style-type: none;
+    text-align:center;
+}
+.nav-item[name="five"]{
+    background-color: #0000b6;
+}
+.nav-item[name="five"]{
+    background-color: chartreuse;
+}
+.nav-item[name="seven"]{
+    background-color: darkseagreen;
+}
+
+.nav-item[name="eight"]{
+    background-color: darkred;
+}
+li{
+    display:inline;
+}
+.btn[name="two"]{
+    position:absolute;
+    top:500px;
+    right:20px;
+    background-color: darkseagreen;
+}
+.btn[name="one"]{
+    position:absolute;
+    left:20px;
+    top:500px;
+    background-color: darkseagreen;
+
+}
+.btn[name="three"]{
+    position: absolute;
+    background-color: cadetblue;
+    top:800px;
+    left:200px;
+    text-align: center;
+}
+.btn[name="four"]{
+    position:absolute;
+    top:800px;
+    left:280px;
+    background-color: darkgray;
+
+}

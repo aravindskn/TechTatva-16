@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto Mono';
+    
+}
+
+#fabMenu {
+    position: fixed;
+    background-color: rgb(255,64,129);
+}
+#loadingbar{
+    
+}
+#Navbar {
+    overflow: hidden;
+}

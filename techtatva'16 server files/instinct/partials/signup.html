@@ -1,0 +1,79 @@
+<div class="container">
+    <div style="overflow-y: auto; overflow-x:hidden; height:60%;">
+    <form class="" name="Signupform" novalidate>
+        
+        <div class="form-group" layout-gt-sm="row" layout-sm="column" layout-padding>
+            <div class="input-field col s6" flex-gt-sm="45">
+                <input class="validate" ng-model="Name" type="text" ng-minlength="6" ng-maxlength="20" required>
+                <label for="name" class="center-align formLabel">Tell us what we should call you</label>
+               
+            </div>
+            <div class="input-field col s6" flex-gt-sm="45" flex-offset-gt-sm="10">
+                <input class="validate" ng-model="Email" type="email" maxlength="30" required>
+                <label for="email" class="center-align formLabel" id="mailLabel">Where to send you mail to</label>
+            </div>
+        </div> 
+        <md-divder></md-divder>
+        <div class="form-group" layout-gt-sm="row" layout-sm="column" layout-padding>
+            <div class="input-field col s6" flex-gt-sm="45">
+                <input name="password" ng-model="Password" class="validate" type="password" min-length=6 required>
+                <label for="password" class="center-align formLabel">Type a Magic Word(password)</label>
+            </div>  
+            <div class="input-field col s6" flex-gt-sm="45" flex-offset-gt-sm="10">
+                <input name="Confirmpassword" ng-model="ConfirmPassword" class="validate" min-length=6 type="password" required>
+                <label for="Confirmpassword" class="center-align formLabel">Type the Magic Word again</label>
+                 
+            </div>
+           
+        </div>
+          <div class="form-group" layout-gt-sm="row" layout-sm="column" layout-padding>
+            <div class="col s4" flex-gt-sm="40">
+     <md-input-container>
+        <label>Branch</label>
+        <md-select ng-model="Branch">
+          <md-option ng-repeat="branch in branches | orderBy" value="{{branch}}">{{branch}}</md-option>
+        </md-select>
+      </md-input-container>
+            </div> 
+            <div class="input-field col s8" flex-gt-sm="50" flex-offset-gt-sm="10">
+                    <input class="validate" ng-model="Code"  type="text" ng-minlength="9" ng-maxlength="9">
+                <label for="name" class="center-align formLabel">Who told you about us (optional)</label>
+            </div>
+        </div>
+        
+         
+            <div class="input-field col s6 center-align">
+                    <input class="validate" ng-model="regno"  type="text" ng-minlength="5">
+                <label for="name" class="center-align formLabel">Registration Number</label>
+            </div>
+                 
+        
+        <label for="button" data-error="" data-success="" class="center-align formLabel" style="color:red;">{{errorMsg}}</label>
+        <div class="form-group">
+
+           <button  class="btn btn-primary" name="button" ng-click="signUp($event)">Play now</button>
+
+        </div>
+     
+    </form>
+
+    <div layout-align>
+        <p>Already have an ID? Login <a ui-sref="login.signin">here</a> now!</p>
+    </div>
+       </div>
+</div>
+<style>
+      #LoginPanel {
+       
+        background: url(img/loginBackground.png) no-repeat center center fixed; 
+        width: 100%;
+        height: 150%;
+        
+
+    }
+</style>
+<script>
+
+
+</script>
+

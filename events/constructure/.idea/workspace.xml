@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="704edf6f-e7c7-4772-97b8-1c0a0411bf64" name="Default" comment="" />
+    <ignored path="constructure.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="constructure" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="level_one.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/level_one.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+              <folding>
+                <marker date="1476334032866" expanded="true" signature="712:767" ph="select answe... level_1" />
+                <marker date="1476334032866" expanded="true" signature="1035:1136" ph="update users... " />
+                <marker date="1476334032866" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+                <marker date="1476334032866" expanded="true" signature="1461:1530" ph="update users... " />
+                <marker date="1476334032866" expanded="true" signature="1622:1733" ph="select * fro... level_1" />
+                <marker date="1476334032866" expanded="true" signature="1665:1712" ph="select max(l... users" />
+                <marker date="1476334032866" expanded="true" signature="1673:1712" ph="select max(l... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level_two.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/level_two.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+              <folding>
+                <marker date="1476334050620" expanded="true" signature="712:767" ph="select answe... level_2" />
+                <marker date="1476334050620" expanded="true" signature="1035:1136" ph="update users... " />
+                <marker date="1476334050620" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+                <marker date="1476334050620" expanded="true" signature="1461:1530" ph="update users... " />
+                <marker date="1476334050620" expanded="true" signature="1622:1733" ph="select * fro... level_2" />
+                <marker date="1476334050620" expanded="true" signature="1665:1712" ph="select max(l... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level_three.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/level_three.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+              <folding>
+                <marker date="1476334086928" expanded="true" signature="712:767" ph="select answe... level_3" />
+                <marker date="1476334086928" expanded="true" signature="1035:1136" ph="update users... " />
+                <marker date="1476334086928" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+                <marker date="1476334086928" expanded="true" signature="1463:1532" ph="update users... " />
+                <marker date="1476334086928" expanded="true" signature="1626:1737" ph="select * fro... level_3" />
+                <marker date="1476334086928" expanded="true" signature="1669:1716" ph="select max(l... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level_four.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/level_four.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="75" column="94" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
+              <folding>
+                <marker date="1476334098097" expanded="true" signature="709:764" ph="select answe... level_4" />
+                <marker date="1476334098097" expanded="true" signature="1025:1126" ph="update users... " />
+                <marker date="1476334098097" expanded="true" signature="1178:1254" ph="insert into has_answered... " />
+                <marker date="1476334098097" expanded="true" signature="1444:1513" ph="update users... " />
+                <marker date="1476334098097" expanded="true" signature="1604:1715" ph="select * fro... level_4" />
+                <marker date="1476334098097" expanded="true" signature="1647:1694" ph="select max(l... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level_five.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/level_five.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+              <folding>
+                <marker date="1476334108419" expanded="true" signature="712:767" ph="select answe... level_5" />
+                <marker date="1476334108419" expanded="true" signature="1035:1136" ph="update users... " />
+                <marker date="1476334108419" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+                <marker date="1476334108419" expanded="true" signature="1462:1531" ph="update users... " />
+                <marker date="1476334108419" expanded="true" signature="1624:1735" ph="select * fro... level_5" />
+                <marker date="1476334108419" expanded="true" signature="1667:1714" ph="select max(l... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sqlconn.php" />
+        <option value="$PROJECT_DIR$/user_home.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/level_one.php" />
+        <option value="$PROJECT_DIR$/level_two.php" />
+        <option value="$PROJECT_DIR$/level_three.php" />
+        <option value="$PROJECT_DIR$/level_four.php" />
+        <option value="$PROJECT_DIR$/level_five.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constructure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="704edf6f-e7c7-4772-97b8-1c0a0411bf64" name="Default" comment="" />
+      <created>1476254412160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476254412160</updated>
+      <workItem from="1476254413636" duration="5484000" />
+      <workItem from="1476333995078" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5605000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13313162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/level_one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="88" />
+          <folding>
+            <marker date="1476334032866" expanded="true" signature="712:767" ph="select answe... level_1" />
+            <marker date="1476334032866" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334032866" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334032866" expanded="true" signature="1461:1530" ph="update users... " />
+            <marker date="1476334032866" expanded="true" signature="1622:1733" ph="select * fro... level_1" />
+            <marker date="1476334032866" expanded="true" signature="1665:1712" ph="select max(l... users" />
+            <marker date="1476334032866" expanded="true" signature="1673:1712" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="87" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+          <folding>
+            <marker date="1476334050620" expanded="true" signature="712:767" ph="select answe... level_2" />
+            <marker date="1476334050620" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334050620" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334050620" expanded="true" signature="1461:1530" ph="update users... " />
+            <marker date="1476334050620" expanded="true" signature="1622:1733" ph="select * fro... level_2" />
+            <marker date="1476334050620" expanded="true" signature="1665:1712" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_five.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476334108419" expanded="true" signature="712:767" ph="select answe... level_5" />
+            <marker date="1476334108419" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334108419" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334108419" expanded="true" signature="1462:1531" ph="update users... " />
+            <marker date="1476334108419" expanded="true" signature="1624:1735" ph="select * fro... level_5" />
+            <marker date="1476334108419" expanded="true" signature="1667:1714" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="87" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+          <folding>
+            <marker date="1476334086928" expanded="true" signature="712:767" ph="select answe... level_3" />
+            <marker date="1476334086928" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334086928" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334086928" expanded="true" signature="1463:1532" ph="update users... " />
+            <marker date="1476334086928" expanded="true" signature="1626:1737" ph="select * fro... level_3" />
+            <marker date="1476334086928" expanded="true" signature="1669:1716" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <marker date="1476259156624" expanded="true" signature="49:99" ph="..." />
+            <marker date="1476259156624" expanded="true" signature="72:87" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_four.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="79" selection-start-line="75" selection-start-column="79" selection-end-line="75" selection-end-column="79" />
+          <folding>
+            <marker date="1476334098097" expanded="true" signature="709:764" ph="select answe... level_4" />
+            <marker date="1476334098097" expanded="true" signature="1025:1126" ph="update users... " />
+            <marker date="1476334098097" expanded="true" signature="1178:1254" ph="insert into has_answered... " />
+            <marker date="1476334098097" expanded="true" signature="1444:1513" ph="update users... " />
+            <marker date="1476334098097" expanded="true" signature="1604:1715" ph="select * fro... level_4" />
+            <marker date="1476334098097" expanded="true" signature="1647:1694" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlconn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1476254828089" expanded="true" signature="390:430" ph="select score... users" />
+            <marker date="1476254828089" expanded="true" signature="545:628" ph="select count... has_answered" />
+            <marker date="1476254828089" expanded="true" signature="699:736" ph="select count... level_" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476211024000" expanded="true" signature="129:176" ph="select answe... level_1" />
+            <marker date="1476211024000" expanded="true" signature="322:391" ph="update users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <marker date="1476259156624" expanded="true" signature="49:99" ph="..." />
+            <marker date="1476259156624" expanded="true" signature="72:87" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+          <folding>
+            <marker date="1476334032866" expanded="true" signature="712:767" ph="select answe... level_1" />
+            <marker date="1476334032866" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334032866" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334032866" expanded="true" signature="1461:1530" ph="update users... " />
+            <marker date="1476334032866" expanded="true" signature="1622:1733" ph="select * fro... level_1" />
+            <marker date="1476334032866" expanded="true" signature="1665:1712" ph="select max(l... users" />
+            <marker date="1476334032866" expanded="true" signature="1673:1712" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+          <folding>
+            <marker date="1476334050620" expanded="true" signature="712:767" ph="select answe... level_2" />
+            <marker date="1476334050620" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334050620" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334050620" expanded="true" signature="1461:1530" ph="update users... " />
+            <marker date="1476334050620" expanded="true" signature="1622:1733" ph="select * fro... level_2" />
+            <marker date="1476334050620" expanded="true" signature="1665:1712" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+          <folding>
+            <marker date="1476334086928" expanded="true" signature="712:767" ph="select answe... level_3" />
+            <marker date="1476334086928" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334086928" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334086928" expanded="true" signature="1463:1532" ph="update users... " />
+            <marker date="1476334086928" expanded="true" signature="1626:1737" ph="select * fro... level_3" />
+            <marker date="1476334086928" expanded="true" signature="1669:1716" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_four.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="75" column="94" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
+          <folding>
+            <marker date="1476334098097" expanded="true" signature="709:764" ph="select answe... level_4" />
+            <marker date="1476334098097" expanded="true" signature="1025:1126" ph="update users... " />
+            <marker date="1476334098097" expanded="true" signature="1178:1254" ph="insert into has_answered... " />
+            <marker date="1476334098097" expanded="true" signature="1444:1513" ph="update users... " />
+            <marker date="1476334098097" expanded="true" signature="1604:1715" ph="select * fro... level_4" />
+            <marker date="1476334098097" expanded="true" signature="1647:1694" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_five.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
+          <folding>
+            <marker date="1476334108419" expanded="true" signature="712:767" ph="select answe... level_5" />
+            <marker date="1476334108419" expanded="true" signature="1035:1136" ph="update users... " />
+            <marker date="1476334108419" expanded="true" signature="1192:1268" ph="insert into has_answered... " />
+            <marker date="1476334108419" expanded="true" signature="1462:1531" ph="update users... " />
+            <marker date="1476334108419" expanded="true" signature="1624:1735" ph="select * fro... level_5" />
+            <marker date="1476334108419" expanded="true" signature="1667:1714" ph="select max(l... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

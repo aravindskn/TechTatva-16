@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Constructure </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-list-01"><a href="home.html" class="header-nav-anchor"> Home </a></li>
+                <li class="nav-list-01"><a href="instructions.html" class="header-nav-anchor"> Instructions </a></li>
+                <li class="nav-list-01"><a href="rules.html" class="header-nav-anchor"> Rules </a></li>
+                <li class="nav-list-01"><a href="typesofwalls.html" class="header-nav-anchor"> Types Of Wall </a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+
+
+<body>
+
+    <?php include("config.php"); ?>
+    <div id="first-div">
+
+        <input style="margin-top: -5em;" type="button" name="previous-button" value="Previous" id="first-div-previous-button">
+        <input style="margin-top: -5em;" type="button" name="next-button" value="Next" id="first-div-next-button">
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+        <input style="margin-right: 50%;margin-left: 50%; margin-top: 25em; width: 50%" type="text" placeholder="Answers">
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6" style="margin-top: 4em;">
+            <input style="margin-left: 60%" type="button" name="save-button" value="Save" id="button-save-button">
+            <input style="margin-right: -20em;" type="submit" name="submit-button" value="Submit" id="submit-button">
+        </div>
+    </div>
+</body>
+</html>

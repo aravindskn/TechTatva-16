@@ -1,0 +1,25 @@
+<style>
+    #top_playersPanel {
+        background-image: url(img/top_playersBackground.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    li.collection-item.avatar.player:hover{
+        background-color: gainsboro;
+    }
+</style>
+<div id="top_playersPanel"  class="hoverable" ng-clock>
+    <div class="col-sm-10 col-md-8 col-md-offset-2">
+        <div class="card-panel">
+           <h5>Top 5 Players</h5>
+            <ul class="collection">
+                <li class="collection-item avatar player" ng-repeat="topper in toppers"> <img src="img/avatars/{{topper.gender}}/{{topper.avator}}.svg" alt="" class="circle"> <span class="title">{{topper.name}}</span><p>{{topper.branch}}</p>
+                    <p class="secondary-content">{{topper.score}}</p>
+                <li class="collection-item avatar teal"> <img src="img/avatars/{{User.gender}}/{{User.avator}}.svg" alt="" class="circle"> <span style="color:white;" class="title">{{User.name}}</span><p style="color:white;">{{User.branch}}<br>Rank: {{User.rank}}</p>
+                    <p class="secondary-content " style="color:white;">{{User.score}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,147 @@
+<style>
+    #ElectrificPanel {
+        background-image: url(img/electrificBackground.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    
+    #playButton {
+        color: azure;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    #playButton:hover {
+        color: white;
+    }
+</style>
+<div id="ElectrificPanel">
+    <div class="container" class="hoverable" style="padding-top:3%; ">
+        <div class="card-panel s12">
+            <h4 class="center-align">Electrific 2016</h4> </div>
+        <div class="card-panel s12">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#test1">Live Wire</a></li>
+                        
+                        <li class="tab col s3"><a class="active" href="#test2">Inalambrico</a></li>
+                        <li class="tab col s3"><a href="#test3">Chess O Bot</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12  grey lighten-5 " style="padding-top:10px;">
+                    <div class="col s4"> <img class="responsive-img center-align circle" src="img/posters/live_wire.jpg" width="180px"></div>
+                    <div class="col s8">
+                        <p class="flow-text left-align"> A race against time to test your skill in compact home wiring. </p>
+                    </div>
+                    <div class="col s12">
+                        <md-divider></md-divider>
+                        <table class="responsive-table" style="padding-top:10px;">
+                            <thead>
+                                <tr>
+                                    <th data-field="Round">Round</th>
+                                    <th data-field="Date">Date</th>
+                                    <th data-field="Venu">Venue</th>
+                                    <th data-field="Timing">Timing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>13/10/2016</td>
+                                    <td>NLH 102</td>
+                                    <td>1:00-3:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>14/10/2016</td>
+                                    <td>1st Year EEE Workshop</td>
+                                    <td>2-5 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="test2" class="col s12  grey lighten-5" style="padding-top:10px;">
+                    <div class="col s4"> <img class="responsive-img" src="img/posters/Inalarmbrico.svg" width="180px"></div>
+                    <div class="col s8">
+                        <p class="flow-text"> Paint your way into the world of circuits without a wire. </p>
+                    </div>
+                    <div class="col s12" style="padding-top:10px;">
+                        <md-divider></md-divider>
+                        <table class="responsive-table ">
+                            <thead>
+                                <tr>
+                                    <th data-field="Round">Round</th>
+                                    <th data-field="Date">Date</th>
+                                    <th data-field="Venu">Venue</th>
+                                    <th data-field="Timing">Timing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>13/10/2016</td>
+                                    <td>AB5 307</td>
+                                    <td>2:00-4:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>14/10/2016</td>
+                                    <td>IE lab (EEE department)</td>
+                                    <td>2-5 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="test3" class="col s12  grey lighten-5" style="padding-top:10px;">
+                    <div class="col s4"> <img class="responsive-img" src="img/posters/chess_o_bot.svg" width="180px"></div>
+                    <div class="col s8">
+                        <p class="flow-text"> Make your own Knight bot to play the game of Electrical Chess and become a Grandmaster. </p>
+                    </div>
+                    <div class="col s12" style="padding-top:10px;">
+                        <md-divider></md-divider>
+                        <table class="responsive-table" >
+                            
+                            <thead>
+                                <tr>
+                                    <th data-field="Round">Round</th>
+                                    <th data-field="Date">Date</th>
+                                    <th data-field="Venu">Venue</th>
+                                    <th data-field="Timing">Timing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>12/10/2016</td>
+                                    <td>NLH 305</td>
+                                    <td>4:30-6:30 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>15/10/2016</td>
+                                    <td>EEE Department Seminar Hall</td>
+                                    <td>2-5 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+
+    .indicator{
+        color:aqua;
+    }
+        
+    
+</style>
+<script>
+    $('ul.tabs').tabs();
+    Materialize.toast("Electrific 2016, Welcomes you!!", 3000);
+</script>

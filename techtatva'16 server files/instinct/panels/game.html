@@ -1,0 +1,26 @@
+
+    <md-content id="gameBackground" flex md-whiteframe="2">
+        <div layout="column" layout-fill="" layout-align="top center">
+            <div class="row">
+                <div class="col-md-4 col-xs-12" ng-repeat="data in Questions track by $index" ng-include="template.url"></div>
+            </div>
+        </div>
+    </md-content>
+<div>
+
+          <md-button class="md-fab" md-whiteframe="7" ng-click="ClearAll()" id="fabMenu" aria-label="Actions" style="bottom: 55px; right: 45px;"  > 
+                <md-tooltip md-direction="up">
+          Get New Questions
+        </md-tooltip>
+           <i class="material-icons">clear_all</i>
+          </md-button>
+     
+
+       
+
+</div> 
+    <style>
+        #gameBackground {
+            background-image: url(img/GameBackGround.jpg);
+        }
+    </style>

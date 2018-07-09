@@ -1,0 +1,34 @@
+
+<form class="login-form" name="SignInForm" novalidate>
+    <div class="form-group" layout-gt-sm="row" layout-sm="column">
+        <div class="input-field col s6" flex-gt-sm="45" >
+            <input class="validate" ng-model="email" name="email" type="email">
+            <label for="email" data-error="That does'nt sound right!"
+            class="center-align">Email</label>
+            
+        </div>
+        <md-divder></md-divder>
+        <div class="input-field col s6" flex-gt-sm="45" flex-offset-gt-sm="10">
+            <input name="password"  ng-model="password" class="validate" type="password">
+            <label for="password" data-error="" data-success="" class="center-align">Password</label>
+        </div>
+    </div>
+    <div class="form-group">
+                <button class="btn btn-primary" ng-click="check_credentials()">Log in</button>
+    </div>
+    <span id="message">{{message}}</span>
+</form>
+<div layout-align>
+    <p>Having a problem? go <a ui-sref="login.forgot">here</a></p>
+    <p>Don't have an ID? Create <a ui-sref="login.signup">one</a> now!</p>
+</div>
+<style>
+     #LoginPanel {
+       
+        background: url(img/loginBackground.png) no-repeat center center fixed; 
+        width: 100%;
+        height: 100%;
+        
+
+    }
+</style>

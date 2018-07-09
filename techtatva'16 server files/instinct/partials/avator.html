@@ -1,0 +1,39 @@
+<md-dialog aria-label="Avator" ng-clock>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Choose your avator</h2>
+        <span flex></span>
+      </div>
+    </md-toolbar>
+    <md-dialog-content style="max-width:800px;max-height:800px; ">
+      <md-tabs md-dynamic-height md-border-bottom>
+        <md-tab label="Dude">
+          <md-content class="md-padding">
+            <div class="row">
+            <div ng-repeat="i in getNumber(boys) track by $index" class="col-md-2 col-xs-3">
+            <div class="center-align"> <img src="img/avatars/b/{{$index+1}}.svg" ng-click="clicked($index+1,'b')"alt="img/default.png" class="responsive-img  width="100px">
+            
+            </div>
+            </div>
+            <div> 
+          </div>
+          </md-content>
+        </md-tab>
+        <md-tab label="Dudette">
+          <md-content class="md-padding">
+            <div class="row">
+            <div ng-repeat="i in getNumber(girls) track by $index" class="col-md-2 col-xs-3">
+            <div class="center-align"> <img src="img/avatars/g/{{$index+1}}.svg" ng-click="clicked($index+1,'g')"alt="img/default.png" class="responsive-img  width="100px">
+            <md-divider></md-divider>
+            </div>
+            </div>
+            <div> 
+          </div>
+            
+          </md-content>
+        </md-tab>
+      </md-tabs>
+    </md-dialog-content>
+  </form>
+</md-dialog>

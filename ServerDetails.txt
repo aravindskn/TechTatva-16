@@ -1,0 +1,18 @@
+Digital Ocean Account
+*#FCK#jd^@GITHUB-70261d43
+nidamarthy.venkata@learner.manipal.edu
+Passion*tt16
+
+
+Droplet Name: onlineevents
+IP Address: 139.59.32.170
+
+Linux and FTP
+Username: root
+Password: passion*tt16
+
+MySql and phpMyAdmin
+Username: root
+Password: onl!nevent$16
+
+Old Password: f593da0e0523549c

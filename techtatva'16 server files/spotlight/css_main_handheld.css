@@ -1,0 +1,14 @@
+#overlap-intial     
+{position:absolute; background-color:rgba(63,62,66,0.7); z-index:5; height:158vh;  width:99%; top:0px; left:0px; display:none;  }
+#mobile_not_ava{position:relative; text-align: center; margin-right: auto; margin-left: auto; color: white; 
+	font-family: Agency FB; width: 90vw; height: 70vh; top:15vh; background-color: rgba(94,90,81,0.5);  }
+#alacrity {display: none;}
+#presents {display: none;}
+#initial_div{display: none;}
+div.main{
+	display: none;
+}
+#contact_us{display: none;}
+#register{display: none;}
+#rules{display: none;}
+#about_us{display: none;}

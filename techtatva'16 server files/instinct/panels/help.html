@@ -1,0 +1,63 @@
+<style>
+    #helpPanel {
+        background-image: url(img/HelpBackground.jpg);
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div id="helpPanel" class="hoverable" >
+    <div class="container">
+        <div class="card-panel center-align">
+           
+                <h5>Help</h5>
+            </div>
+        
+        <div class="card-panel center-align">
+            <md-content>
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li class="">
+                    <div class="collapsible-header active"><i class="material-icons">videogame_asset</i><b>How to play</b></div>
+                    <div class="collapsible-body" >
+                        <div style="overflow-y: auto; height:200px;"> 
+                            <ul>
+                            <li><span>The rules of the game are pretty simple:</span></li>
+                            <li>All you have are questions with only two options, every correct carries<b> +1 </b>and for every incorrect answer a<b> -1</b>.</li>
+                            <li><b>60</b> questions are alloted per day.</li>
+                            <li>Clock resets at <b>12 AM</b>.</li> 
+                            <li>Once you answer a question card the corresponding marks are given and a new card replaces it, you will have <b>6</b> cards on the screen.
+                            If you can't answer any of them, you have an option to flip all cards with new ones, this can only be done
+                                <B>3</B> times. To put it in one line you have <b>3</b> lives.</li>
+
+                             </p>You can get more by inviting your friends :) </p>
+                        </ul>
+                      </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">timeline</i><b>Change or Get questions</b></div>
+                    <div class="collapsible-body">
+                       <div style="overflow-y: auto; height:200px;">
+                            <p>Click
+                                <md-button class="md-fab md-mini" ng-click="helpClick1()"><i class="material-icons">clear_all</i> </md-button>in the to <b ng-click="helpClick1()">game</b> get new questions using lives.
+                            Click
+                                <md-button class="md-fab md-mini" ng-click="helpClick2()"><i class="material-icons">autorenew</i> </md-button>in your <b ng-click="helpClick1()">profile</b> to claim your questions for today.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">supervisor_account</i><b>Contact Us</b></div>
+                    <div class="collapsible-body">
+                        <p>electrifictt16@gmail.com</p>
+                    </div>
+                </li>
+            </ul>
+            </md-content>
+        </div>
+    </div>
+    </div>
+
+<script>
+    $('.collapsible').collapsible({
+      accordion : true
+    });
+</script>

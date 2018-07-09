@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> constructure</title>
+    <link rel="stylesheet" href="tt2.css" href="">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-background">
+       <div  class="container">
+        <ul class="nav navbar-nav">
+            <li class="nav-item active navbar-header" name="eight"><a href="#" class="link-4">HOME</a></li>
+            <li class=" nav-item " name="six"><a href="#" class="link-2">INSTRUCTIONS</a></li>
+            <li class="nav-item " name="five" ><a href="#" class="link-1">RULES</a></li>
+            <li  class="nav-item" name="seven"><a class="link-3" href="#">TYPES OF WALL</a></li>
+        </ul>
+    </div>
+</nav>
+<button type="button" class="btn btn-link" name="one">PREVIOUS</button>
+<button type="button" class="btn btn-link" name="two">NEXT</button>
+<button type="button" class="btn btn-default" name="three">SAVE</button>
+<button type ="button" class="btn btn-default" name="four">SUBMIT</button>
+</body>
+</html>

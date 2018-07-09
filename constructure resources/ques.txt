@@ -1,0 +1,3 @@
+1. The centre location i.e ICY location will have 8 questions, containing 5 questions of 3 marks and 3 questions of 5 marks.
+2. Muddy soil (Clayey) and High load bearing soil will have 5 questions, containing 3 questions of 3 marks and 2 questions of 5 marks.
+3. Strong rock location will have 5 questions, containing 2 question of 3 marks and 3 questions of 5 marks.
